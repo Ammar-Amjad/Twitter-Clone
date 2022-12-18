@@ -1,4 +1,6 @@
-twitter
+
+Twitter Clone part 2 with Websockets
+
 =====
 
 Task: 
