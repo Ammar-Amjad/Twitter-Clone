@@ -20,12 +20,18 @@ Steps for execution are given below:
 
 Open up two terminals in the directory of code file.
 Run the project by using commands in terminal:
+
 -> erl -sname paris
+
 -> c(project4).
+
 -> project4:startServer().
 
 Now in 2nd terminal type.
+
 -> erl -sname berlin
+
 -> project4:startActors(paris@USER, NumActors, NumRequests)
+
 
 where NumActors = number of Actors/Clients, NumRequests = number of requests sent by each actor/client.
