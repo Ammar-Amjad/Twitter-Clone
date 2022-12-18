@@ -60,19 +60,28 @@ In the backend, websocket is opened at localhost:8080.
 API JSON Format:
 
 1-	For User Login:
+
 {"action" : "login",
 "username": "Swain"}
+
 2-	For Tweet:
+
 {"action" : "tweet",
 "tweet" : "random tweet"}
+
 3-	For Search:
+
 {"action" : "search",
 "query" : "a"}
+
 4-	For Retweet:
+
 {"action" : "retweet",
 "tweet" : "tweet by Ezra",
 "tweetAuthor" : "Ezra"}
+
 5-	For Subscribing:
+
 {"action" : "follow",
 "follow" : "Ezra"}
 
